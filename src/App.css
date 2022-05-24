@@ -1,38 +1,71 @@
-.App {
+.img {
+  width: 100%;
+  display: block;
+}
+
+.section {
+  margin: 5rem 0;
+}
+
+.header-title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 0.3rem;
   text-align: center;
+  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+  color: orange;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-title {
+  font-size: 4rem;
+  text-transform: capitalize;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.drink {
+  width: 85vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.drink-data {
+  background: #afafaf;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  color: 476a2e;
+  font-weight: 600;
+}
+
+.drink img {
+  border-radius: 0.25rem;
+  width: 40%;
+}
+
+.drink p {
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.8rem;
+}
+
+.drink-info {
+  padding-left: 4rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cocktail-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
