@@ -108,15 +108,3 @@ const SingleCocktail = () => {
 }
 
 export default SingleCocktail;
-
-
-    // return (
-    //     <React.Fragment>
-    //         <div>Detail of single cocktail</div>
-    //         <div>Detail of single cocktail</div>
-    //         <div>Detail of single cocktail</div>
-    //         <div>Detail of single cocktail</div>
-    //         <div>Detail of single cocktail</div>
-    //         <div>Detail of single cocktail</div>
-    //     </React.Fragment>
-    // )

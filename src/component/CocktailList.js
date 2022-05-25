@@ -3,12 +3,10 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchCocktail } from '../redux/action';
 import { Link } from 'react-router-dom';
 
-
 const CocktailList = () => {
 
     const { cocktails, loading } = useSelector((state) => ({ ...state.data }));
     const [modifiedCocktail, setModifiedCocktail] = useState([]);
-    console.log("cocktails", cocktails);
 
     let dispatch = useDispatch();
 
@@ -35,7 +33,6 @@ const CocktailList = () => {
         }
     }, [cocktails, setModifiedCocktail]);
 
-
     if (loading) {
         return (
             <div className='spinner-grow' role="status">
@@ -46,13 +43,11 @@ const CocktailList = () => {
         )
     }
 
-
     if (!cocktails) {
         return (
             <h2>No Cocktails matched</h2>
         )
     }
-
 
     return (
         <div className='container'>
